@@ -1,1 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>About Us</title>
+    <style>
 
+
+  body{
+     
+      background: url(https://images.unsplash.com/photo-1463947628408-f8581a2f4aca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80) no-repeat center;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+  }
+
+  /** ------------------- Heading --------------------- **/
+   .heading{
+       font-size:50px;
+       font-family:monospace;
+       font-weight: bolder;
+       font-style: normal;
+       margin-left:250px;
+      margin-right:40px;
+
+   }
+
+   .header{
+       background-image:linear-gradient(orange,white,green) ;
+   }
+
+
+  /** ------------------- Social Media CSS --------------------- **/
+
+
+  .socialmediaLinks ul li {
+        list-style: none;
+        margin: 0 10px;
+    }
+    .socialmediaLinks ul li .fa {
+        color: #000000;
+        font-size: 25px;
+        line-height: 50px;
+        transition: .5s;
+    }
+    .socialmediaLinks ul li .fa:hover {
+        color: #ffffff;
+    }
+    .socialmediaLinks ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    .tisha ul li a {
+        position:relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    .snehal ul li a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+    }
+    .socialmediaLinks ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    .socialmediaLinks ul li:nth-child(1) a:hover {
+        background-color: #3b5999;
+    }
+    .socialmediaLinks ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+    .socialmediaLinks ul li:nth-child(3) a:hover {
+        background-color: #f81cc1;
+    }
+    .socialmediaLinks ul li:nth-child(4) a:hover {
+        background-color:black;
+    }
+    .socialmediaLinks ul li:nth-child(5) a:hover {
+        background-color: #0077B5;
+    }
+
+ /** ------------------- About us CSS --------------------- **/
+ .names{
+    font-size:30px;
+    font-weight:bold;
+    font-family:fantasy;
+    text-decoration: solid;
+}
+
+
+.aboutnames{
+font-size:19px;
+}
+.description{
+font-size:15px;
+}
+ .profile-image {
+     
+ }
+
+ .snehapi {
+     background-color: orange;
+     height: 220px;
+     width:800px;
+     position: absolute;
+     margin-left :150px;
+     margin-right:0px;
+     padding:10px;
+     box-shadow: 10px 10px 8px rgb(253, 184, 56);
+
+ }
+
+.snehapi :hover{
+
+}
+
+ .tishapi {
+     background-color:white;
+     height: 240px;
+     width:800px;
+     position: absolute;
+     margin-left: 150px;
+     margin-right:0px;
+     padding:10px;
+     box-shadow: 10px 10px 8px rgba(255, 255, 255, 0.938) ;
+
+ }
+ .snehalpi {
+     background-color: green;
+     height: 220px;
+     width:800px;
+     position: absolute;
+     margin-left: 150px;
+     margin-right:0px;
+     padding:10px;
+     box-shadow: 10px 10px 8px rgb(10, 207, 10);
+
+ }
+ 
+
+
+
+/**  button CSS **/
+.previous .next a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 24px 50px;
+  height:50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+ background-color: white;
+ text-align: center;
+ transition: 0.5s;
+transform: translate(0,0px);
+box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.previous .next :hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color:#f1f1f1 ;
+  color:black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+
+/**  Brown Block   **/
+
+.brown-block {
+
+    background-color:rgb(90, 22, 22);
+    height:30px;
+    width:200px;
+    padding:3px;
+    position:relative;
+    border-color: rgb(66, 15, 15);
+    border-width:2px;
+    border-style:outset;
+    box-shadow: 6px 6px 8px rgb(100, 29, 29);
+}
+.brown-block2{
+
+background-color:rgb(90, 22, 22);
+height:30px;
+width:300px;
+padding:3px;
+position:relative;
+border-style:outset;
+border-color: rgb(66, 15, 15);
+ border-width:2px;
+ box-shadow: 6px 6px 8px rgb(100, 29, 29);
+}
+.brown-block3{
+
+background-color:rgb(90, 22, 22);
+height:30px;
+width:400px;
+padding:3px;
+position:relative;
+border-style:outset;
+border-color: rgb(66, 15, 15);
+border-width:2px;
+box-shadow: 6px 6px 8px rgb(100, 29, 29);
+
+}
+
+
+
+        /** -----------Footer    --------------------------- **/
+        footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+
+     <!--       Header section       -->
+
+
+<header>
+
+    <div class="header">
+      <h1 class="heading"> About the Website Developers</h1>
+    </div>
+ 
+</header>
+
+<br><br><br><br>
+
+    <!--       Social Media Links  -->
+
+<!--    For Sneha   -->
+
+<div class="borderbox ">
+    
+    <div class="profile-image snehapi ">
+        <h2 class="names text-center text-dark"> Sneha Agarwal </h2>
+        <h4 class="aboutnames">-First Year Undergraduate in Chemical Engineering at Harcourt Butler Technical University </h4>
+        <h5 class="description">A girl with fire in her belly to make her dreams come true. An engineering undergraduate who consider pen as her power. Ambitious and Determined. Wittier than thou. Often awkward. A Koala with brains, if you may. Passionate about her work and always focused and determined to complete it before time.Always have a confidence in doing rather than just keep babbling about her work and dreams.Optimistic and see good even in difficult situations.
+            Web Development enthusiast.Curious about her surroundings.Learner.
+        </h5>
+    </div>
+
+    <div class="socialmediaLinks">
+        <ul>
+            <li> <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a> </li>
+            <li> <a href="https://www.twitter.com/" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a> </li>
+            <li> <a href="https://www.instagram.com/isyneha._" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a> </li>
+            <li> <a href="https://github.com/isyneha" target="_blank">
+                <i class="fa fa-github"></i>
+            </a> </li>
+            <li> <a href="https://www.linkedin.com/in/sneha-agarwal-217a55200" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a> </li>
+        </ul>
+    </div>
+</div>
+
+<div class="photo"></div>
+
+<!--   For Tisha   -->
+
+
+<div class="borderbox">
+<div class="profile-image tishapi">
+   <img src="data:image/png;base64,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" width="100" height="100">
+</div>
+
+
+    <div class="socialmediaLinks tisha">
+        <ul>
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a> </li>
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a> </li>
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a> </li>
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-github"></i>
+            </a> </li>
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a> </li>
+        </ul>
+    </div>
+</div>
+
+
+    <!--    For Snehal   -->
+
+    <div class="borderbox">
+    <div class="profile-image snehalpi">
+        <h2 class="names  text-center text-dark"> Snehal Rani </h2>
+        <h4 class="aboutnames"> Third Year Undergraduate at Sarla Birla University</h4>
+        <h5 class="description"><h5 class="description">Self motivated ,always eager to learn new technologies and like to solve difficult problems in an effective way ,open source enthusiast
+, Global ambassador of womentech network'
+ content writer,
+ interested in problem solving,
+
+a hard worker, fast learner , believe in new innovative 💡ideas which will do something different in upcoming years .
+
+        </h5>
+    </div>
+
+    <div class="socialmediaLinks snehal">
+        <ul>
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a> </li>
+
+            <li> <a href="https://twitter.com/snehalrani1819" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a> </li>
+
+            <li> <a href="#" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a> </li>
+
+            <li> <a href="https://github.com/ranisnehal" target="_blank">
+                <i class="fa fa-github"></i>
+            </a> </li>
+
+            <li> <a href="https://linkedin.com/in/snehal-rani-5ab1781aa" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a> </li>
+
+        </ul>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class= "brown-block"> </div>
+<div class= "brown-block2"> </div>
+<div class= "brown-block3"> </div>
+
+<br>
+
+
+ <!--       -------------------Footer--------------    -->
+ <footer>
+      <a href="#">&copy; 2021 | Team Horizons | Sneha Agarwal| Snehal Rani &nbsp  &nbsp  &nbsp  &nbsp  Mentor-Akshaya Sanal </a>
+ <!-- <a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>  -->
+</footer>
+
+
+</body>
+</html>
