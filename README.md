@@ -32,3 +32,6 @@ Its only Drawback is that the website needs to be updated time to time with more
 # Contributors :
 1.Sneha Agarwal<br>
 2.Snehal Rani<br>
+
+
+# Live Prewiew [https://github.com/isyneha/Olympics.github.io/blob/main/Tokyo%20Olympics/HTML.html]
