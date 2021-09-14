@@ -33,5 +33,5 @@ Its only Drawback is that the website needs to be updated time to time with more
 1.Sneha Agarwal<br>
 2.Snehal Rani<br>
 
-
+# Direct Link to access the project [https://isyneha.github.io/Olympics.github.io/]
 
